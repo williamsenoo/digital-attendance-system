@@ -1,34 +1,58 @@
-##Digital Attendance System
-Course
 
-##EEE227 – Introduction to C++ Programming
-##HND Electrical Engineering (Level 200)
+# Digital Attendance System
 
-##Description
+## Course Information
+Course Code: EEE227  
+Programme: HND Electrical Engineering (Level 200)  
+Project Type: Mid-Semester Capstone  
 
-This is a console-based C++ program developed to manage student attendance digitally.
-It replaces paper-based attendance taking in lecture halls.
+---
 
-##Features
+## Project Description
+This project implements a console-based Digital Attendance System using C++.  
+The system replaces manual attendance taking with a structured digital solution.
 
-Register students
+---
 
-View and search students
+## Features Implemented
 
-Create lecture sessions
+### Student Management
+- Register new students
+- View all registered students
+- Search students by ID
+- Data stored in students.txt
 
-Mark attendance (Present, Absent, Late)
+### Attendance Session Management
+- Create lecture session (course code and date)
+- Mark attendance (Present, Absent, Late)
+- Save attendance records per session file
 
-Display attendance summary
+### Reports and Summary
+- Display attendance list for a session
+- Show summary counts of Present, Absent, and Late
 
-Save data using text files
+### File Storage
+- Persistent storage using fstream
+- Student data saved in students.txt
+- Session data saved as:
+  session_COURSECODE_YYYY_MM_DD.txt
 
-##Files
-main.cpp
-README.md
-students.txt
-attendance.txt
-session_EEE227_YYYY-MM-DD.txt
+---
 
-##Author
+## Technologies Used
+- C++
+- fstream for file handling
+- Console-based interface
+- GitHub for version control
+
+---
+
+## How to Run
+1. Open the project in Code::Blocks
+2. Build and Run
+3. Follow menu instructions
+
+---
+
+## Author
 William Senoo
